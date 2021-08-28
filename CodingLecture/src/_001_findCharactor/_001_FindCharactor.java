@@ -2,6 +2,11 @@ package _001_findCharactor;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * 	1강	뮨자 찾기
+ * */
+
 public class _001_FindCharactor {
 	public static void main(String[] args) {
 		_001_FindCharactor m = new _001_FindCharactor();
