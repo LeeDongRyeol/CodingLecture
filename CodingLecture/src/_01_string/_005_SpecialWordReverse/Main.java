@@ -30,6 +30,7 @@ a#b!GE*T@S
 S#T!EG*b@a
  * 
  *
+ * Character.isAlphabetic() 을 알면 쉽게 풀 수 있는 문제이다.
  */
 
 public class Main {
