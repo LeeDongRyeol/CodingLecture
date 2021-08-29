@@ -1,4 +1,4 @@
-package _005_SpecialWordReverse;
+package _01_string._005_SpecialWordReverse;
 
 import java.util.Scanner;
 

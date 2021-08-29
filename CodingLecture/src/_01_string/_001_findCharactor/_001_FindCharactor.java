@@ -1,4 +1,4 @@
-package _001_findCharactor;
+package _01_string._001_findCharactor;
 
 import java.util.Scanner;
 

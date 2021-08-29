@@ -1,4 +1,4 @@
-package _003_wordInSentence;
+package _01_string._003_wordInSentence;
 
 import java.util.Scanner;
 
