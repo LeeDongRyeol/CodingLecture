@@ -52,7 +52,7 @@ public class Main {
 	
 	public static int solution(int n, int k, int[] arr) {
 		int answer = -1;
-		Set<Integer> set = new TreeSet<Integer>(Collections.reverseOrder());
+		TreeSet<Integer> set = new TreeSet<Integer>(Collections.reverseOrder());
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
 				for (int l = j + 1; l < n; l++) {
@@ -66,6 +66,12 @@ public class Main {
 //			cnt++;
 //			if(cnt == k) return x;
 //		}
+		
+//		set.first(); // 첫번째 값 얻는다.
+//		set.last();	// 마지막 값을 얻는다.
+		
+		
+		
 		
 		if(set.size() >= k) answer = set.stream().mapToInt(Integer::intValue).toArray()[k-1];
 		
