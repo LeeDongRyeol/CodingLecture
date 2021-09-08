@@ -61,6 +61,12 @@ public class Main {
 			}
 		}
 		
+//		int cnt = 0;
+//		for(int x : set) {
+//			cnt++;
+//			if(cnt == k) return x;
+//		}
+		
 		if(set.size() >= k) answer = set.stream().mapToInt(Integer::intValue).toArray()[k-1];
 		
 		return answer;
