@@ -11,6 +11,7 @@ import java.util.Stack;
  * https://www.acmicpc.net/problem/1806
  */
 
+
 public class Main {
 	public static void main(String[] args) {
 		Main T = new Main();
