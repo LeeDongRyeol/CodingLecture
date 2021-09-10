@@ -3,15 +3,6 @@ package _05_dataStructure._004_postfix;
 import java.util.Scanner;
 import java.util.Stack;
 
-/**
- * 
- * @author dyl1912
- *
- * 백준 : 1806번 부분합
- * https://www.acmicpc.net/problem/1806
- */
-
-
 public class Main {
 	public static void main(String[] args) {
 		Main T = new Main();
