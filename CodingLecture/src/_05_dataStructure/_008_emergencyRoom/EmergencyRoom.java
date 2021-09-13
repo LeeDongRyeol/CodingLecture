@@ -101,7 +101,6 @@ public class EmergencyRoom {
 				answer++;
 				if(temp.id == m) return answer;
 			}
-			
 		}
 		
 		return answer;
