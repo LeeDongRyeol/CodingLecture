@@ -28,7 +28,7 @@ import java.util.Scanner;
 public class Main {
 	static int n, m;
 	static ArrayList<ArrayList<Integer>> graph;
-	static int[] ch, dis;
+	static int[] ch, dis;	// ch : 방문여부 체크 배열, dis : 1 정점으로부터 이동한 거리 배열
 	
 	public static void BFS(int v) {
 		Queue<Integer> queue = new LinkedList<Integer>();
