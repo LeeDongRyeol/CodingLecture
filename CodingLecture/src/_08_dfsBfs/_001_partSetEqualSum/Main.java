@@ -6,7 +6,7 @@ public class Main {
 	static String answer = "NO";
 	static int n, total = 0;
 	static boolean flag = false;
-	public static void DFS(int L, int sum, int[] arr) {
+	public void DFS(int L, int sum, int[] arr) {
 		if(flag) return;
 		if(sum > total / 2) return; 
 		if(L == n) {
@@ -25,12 +25,13 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		int[] arr = new int[n];
-		for (int i = 0; i < 0; i++) {
+		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 			total += arr[i];
 		}
 		
 		T.DFS(0, 0, arr);
+		sc.close();
 		System.out.println(answer);
 	}
 }
