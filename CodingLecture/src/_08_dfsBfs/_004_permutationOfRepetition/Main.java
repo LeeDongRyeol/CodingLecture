@@ -29,5 +29,6 @@ public class Main {
 		m = sc.nextInt();
 		pm = new int[m];
 		T.DFS(0);
+		sc.close();
 	}
 }
