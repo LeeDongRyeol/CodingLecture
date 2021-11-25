@@ -39,7 +39,7 @@ Image1.jpg
 
 import java.util.Scanner;
 
-public class Main {
+public class _010_MazeSearch {
 	static int[] dy = {0, 1, 0, -1};
 	static int[] dx = {1, 0, -1, 0};
 	static int[][] map = new int[7][7];
