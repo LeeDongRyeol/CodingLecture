@@ -4,21 +4,21 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-class Edge implements Comparable<Edge> {
-	int v1, cost;
-	
-	Edge(int v1, int cost) {
-		this.v1 = v1;
-		this.cost = cost;
-	}
-
-	@Override
-	public int compareTo(Edge o) {
-		return this.cost - o.cost;
-	}
-}
-
 public class Main {
+	static class Edge implements Comparable<Edge> {
+		int v1, cost;
+		
+		Edge(int v1, int cost) {
+			this.v1 = v1;
+			this.cost = cost;
+		}
+
+		@Override
+		public int compareTo(Edge o) {
+			return this.cost - o.cost;
+		}
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt(), m = sc.nextInt(), answer = 0;
