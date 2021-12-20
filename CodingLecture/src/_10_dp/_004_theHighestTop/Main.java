@@ -4,6 +4,20 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author dr854
+
+5
+25 3 4
+4 4 6
+9 2 3
+16 2 5
+1 5 2
+
+10
+ */
+
 public class Main {
 	static int[] dy;
 	
